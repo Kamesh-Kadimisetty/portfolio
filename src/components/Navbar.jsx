@@ -12,7 +12,7 @@ const Navbar = () => {
         <img className="w-10 mx-2" src={logo} alt="logo" />
       </div>
       <div className="flex items-center justify-center gap-4 m-8 text-2xl">
-        <a href="https://www.linkedin.com/in/kadimisetty-kumar-venkata-kamesh-b1b841300/" target="_blank" rel="noopener noreferrer">
+        <a href="www.linkedin.com/in/kamesh-kadimisetty-b1b841300" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
         <a href="https://github.com/Kamesh-Kadimisetty" target="_blank" rel="noopener noreferrer">
