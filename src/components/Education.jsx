@@ -27,7 +27,7 @@ const Education = () => {
         transition={{ duration: 1.0 }}
         className="my-20 text-4xl text-center"
       >
-        Education
+        Education🎓
       </motion.h1>
       
       {educationData.map((edu, index) => (

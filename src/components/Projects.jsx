@@ -8,7 +8,7 @@ const Projects = () => {
         // whileInView={{ opacity: 1, y: 0 }}
         // initial={{ opacity: 0, y: -100 }}
         // transition={{ duration: 1.0 }}
-      className="my-20 text-4xl text-center">Projects</motion.h1>
+      className="my-20 text-4xl text-center">Projects🚀</motion.h1>
       <div>
       {PROJECTS.map((project, index) => (
         <div key={index} className="flex flex-wrap mb-8 lg:justify-center">
