@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
-
+import Codingprofiles from "./components/Codingprofiles";
 const App = () => {
   return (
     <div className="relative min-h-screen overflow-x-hidden antialiased text-neutral-300 selection:bg-cyan-200 selection:text-cyan-900">
@@ -20,6 +20,7 @@ const App = () => {
         <Technologies/>
         <Education/>
         <Projects />
+        <Codingprofiles/>
         <Resume />
         <Contact />
         <Footer />
