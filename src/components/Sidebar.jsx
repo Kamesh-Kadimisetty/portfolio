@@ -34,16 +34,16 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* Toggle Button - Always visible */}
+      {/* Toggle Button */}
       <button 
         onClick={toggleSidebar} 
-        className="fixed z-50 p-3 text-white transition-colors duration-200 border rounded-md shadow-lg top-4 left-4 bg-neutral-800 hover:bg-neutral-700 border-neutral-600"
+        className="fixed z-50 p-2 text-white transition-colors duration-200 bg-gray-800 rounded-md top-4 left-4 hover:bg-gray-700"
         aria-label="Toggle sidebar"
       >
         {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
       </button>
 
-      {/* Overlay for mobile */}
+      {/* Overlay */}
       {isOpen && (
         <div 
           className="fixed inset-0 z-40 bg-black bg-opacity-50"
@@ -51,30 +51,44 @@ const Sidebar = () => {
         />
       )}
 
-      {/* Sidebar Content */}
-      <div className={`fixed top-0 left-0 z-40 h-full bg-neutral-900 text-neutral-300 p-4 
-        transition-transform duration-300 ease-in-out shadow-xl
+      {/* Sidebar */}
+      <div className={`fixed top-0 left-0 z-50 h-full bg-gray-900 text-white 
+        transition-transform duration-300 ease-in-out
         ${isOpen ? "translate-x-0" : "-translate-x-full"} 
-        w-48 border-r border-neutral-700`}>
-        <div className="flex flex-col h-full">
-          <div className="flex-1">
-            <nav className="flex flex-col gap-4 mt-16">
-              {navItems.map((item) => {
-                const IconComponent = item.icon;
-                return (
-                  <button 
-                    key={item.id}
-                    onClick={() => scrollToSection(item.id)} 
-                    className="flex items-center gap-3 px-3 py-2 text-left transition-colors duration-200 rounded hover:text-white hover:bg-neutral-800"
-                  >
-                    <IconComponent size={16} className="text-neutral-400" />
-                    <span className="font-medium">{item.label}</span>
-                  </button>
-                );
-              })}
-            </nav>
+        w-64 shadow-xl`}>
+        
+        {/* Profile Section */}
+        <div className="p-6 border-b border-gray-700">
+          <div className="flex items-center space-x-3">
+            <div className="flex items-center justify-center w-10 h-10 bg-blue-500 rounded-full">
+              <span className="text-lg font-bold text-white">K</span>
+            </div>
+            <div>
+              <h3 className="font-semibold">Kamesh Kadimisetty</h3>
+              <p className="text-sm text-gray-400">Frontend Developer</p>
+            </div>
           </div>
         </div>
+
+        {/* Navigation */}
+        <nav className="p-4">
+          <ul className="space-y-2">
+            {navItems.map((item) => {
+              const IconComponent = item.icon;
+              return (
+                <li key={item.id}>
+                  <button 
+                    onClick={() => scrollToSection(item.id)} 
+                    className="flex items-center w-full px-4 py-3 text-left text-gray-300 transition-colors duration-200 rounded-lg hover:text-white hover:bg-gray-800"
+                  >
+                    <IconComponent size={18} className="mr-3" />
+                    <span>{item.label}</span>
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
       </div>
     </>
   );
