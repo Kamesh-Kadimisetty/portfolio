@@ -11,7 +11,7 @@ const Resume = () => {
               Resume📄
             </h1>
             <a
-              href="https://drive.google.com/file/d/1YPh7DkBsn1CSRg4aRnVKux0ruMaJm_iY/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1oB2EPrc4PG9yr0ZjhHRktQ2YBQTyZcHd/view?usp=sharing"
               target="_blank"
               className="relative p-3 px-5 font-bold bg-green-600 rounded-full"
             >
