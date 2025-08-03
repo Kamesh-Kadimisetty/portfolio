@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6 mb-20">
       <div className="flex items-center flex-shrink-0"> 
-        <img className="w-10 mx-2" src={logo} alt="logo" />
+        {/* <img className="w-10 mx-2" src={logo} alt="logo" /> */}
       </div>
       <div className="flex items-center justify-center gap-4 m-8 text-2xl">
         <a href="https://linkedin.com/in/kamesh-kadimisetty-b1b841300" target="_blank" rel="noopener noreferrer">
@@ -24,9 +24,9 @@ const Navbar = () => {
         <a href="https://www.instagram.com/kamesh_kadimisetty/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a>
-        <a href="https://linktr.ee/KameshKadimisetty" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://linktr.ee/KameshKadimisetty" target="_blank" rel="noopener noreferrer">
           < SiLinktree/>
-        </a>
+        </a> */}
       </div>
     </nav>
   )
