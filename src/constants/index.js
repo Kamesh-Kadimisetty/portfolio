@@ -1,17 +1,11 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project6 from "../assets/projects/project-6.jpg";
 
-export const HERO_CONTENT = `I'm a passionate Frontend Web Developer with a knack for crafting robust and scalable web applications.I’ve honed my skills in cutting-edge front-end technologies like React and Tailwind CSS.
-I enjoy leveraging my technical skills and creativity to build innovative solutions . Whether it's developing responsive, high-performance websites or creating seamless user interfaces.
-I'm always eager to learn new tools and stay updated with industry trends to ensure the solutions I deliver are modern, efficient, and future-proof`;
+export const HERO_CONTENT = `I'm a passionate Full-Stack MERN Developer with a knack for crafting robust and scalable web applications. I’ve honed my skills in cutting-edge technologies like MongoDB, Express.js, React, and Node.js, along with modern tools such as Tailwind CSS. I enjoy leveraging my technical skills and creativity to build innovative end-to-end solutions. Whether it's developing responsive, high-performance frontends, designing efficient backends, or creating seamless user experiences, I'm always eager to learn new tools and stay updated with industry trends to ensure the solutions I deliver are modern, efficient, and future-proof.`
+export const ABOUT_TEXT = `I am currently pursuing a BTech in Information Technology. As a dedicated and versatile Full-Stack MERN Developer, I have a passion for creating efficient, scalable, and user-friendly web applications. Over time, I have gained hands-on experience with a wide range of technologies, including MongoDB, Express.js, React, Node.js, JavaScript, HTML, CSS, and Tailwind CSS.
 
-export const ABOUT_TEXT = `I am currently pursuing a BTech in Information Technology. As a dedicated and versatile front-end developer, I have a passion for creating efficient and user-friendly web applications. Over time, I have gained hands-on experience with a range of technologies, including HTML, CSS, JavaScript, React, and Tailwind CSS. 
-My journey into web development started with a deep curiosity about how things work, which has now evolved into a career focused on continuous learning and adapting to new challenges. I am passionate about exploring innovative projects and always excited to work on new and creative solutions.
-Outside of coding, I enjoy staying active, exploring emerging technologies, and contributing to open-source and web development projects.`;
-
+My journey into web development started with a deep curiosity about how things work, which has now evolved into a career focused on continuous learning and adapting to new challenges. I am passionate about exploring innovative projects and always excited to work on new and creative full-stack solutions. Outside of coding, I enjoy staying active, exploring emerging technologies, and contributing to open-source and full-stack development projects.`
 export const PROJECTS = [
   {
     title: "AgriConnect",

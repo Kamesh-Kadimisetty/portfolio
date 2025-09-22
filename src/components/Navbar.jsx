@@ -1,9 +1,7 @@
-import logo from "../assets/K-logo1.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import { SiLinktree } from "react-icons/si";
 
 const Navbar = () => {
   return (
@@ -12,7 +10,7 @@ const Navbar = () => {
         {/* <img className="w-10 mx-2" src={logo} alt="logo" /> */}
       </div>
       <div className="flex items-center justify-center gap-4 m-8 text-2xl">
-        <a href="https://linkedin.com/in/kamesh-kadimisetty-b1b841300" target="_blank" rel="noopener noreferrer">
+        <a href="http://www.linkedin.com/in/kameshkadimisetty" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
         <a href="https://github.com/Kamesh-Kadimisetty" target="_blank" rel="noopener noreferrer">

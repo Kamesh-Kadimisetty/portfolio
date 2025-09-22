@@ -30,7 +30,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               className="text-2xl tracking-tight text-transparent lg:text-3xl bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text">
-             Frontend Web Developer
+             Full Stack Web Developer
             </motion.span>
 
             <motion.p

@@ -65,7 +65,7 @@ const Sidebar = () => {
             </div>
             <div>
               <h3 className="font-semibold">Kamesh Kadimisetty</h3>
-              <p className="text-sm text-gray-400">Frontend Developer</p>
+              <p className="text-sm text-gray-400">Full Stack Web Developer</p>
             </div>
           </div>
         </div>
