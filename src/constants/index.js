@@ -2,10 +2,30 @@ import project1 from "../assets/projects/project-1.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project6 from "../assets/projects/project-6.jpg";
 
-export const HERO_CONTENT = `I'm a passionate Full-Stack MERN Developer with a knack for crafting robust and scalable web applications. I’ve honed my skills in cutting-edge technologies like MongoDB, Express.js, React, and Node.js, along with modern tools such as Tailwind CSS. I enjoy leveraging my technical skills and creativity to build innovative end-to-end solutions. Whether it's developing responsive, high-performance frontends, designing efficient backends, or creating seamless user experiences, I'm always eager to learn new tools and stay updated with industry trends to ensure the solutions I deliver are modern, efficient, and future-proof.`
+export const HERO_CONTENT = `I'm a passionate Full Stack MERN Developer with a knack for crafting robust and scalable web applications. I’ve honed my skills in cutting-edge technologies like MongoDB, Express.js, React, and Node.js, along with modern tools such as Tailwind CSS. I enjoy leveraging my technical skills and creativity to build innovative end-to-end solutions. Whether it's developing responsive, high-performance frontends, designing efficient backends, or creating seamless user experiences, I'm always eager to learn new tools and stay updated with industry trends to ensure the solutions I deliver are modern, efficient, and future-proof.`
 export const ABOUT_TEXT = `I am currently pursuing a BTech in Information Technology. As a dedicated and versatile Full-Stack MERN Developer, I have a passion for creating efficient, scalable, and user-friendly web applications. Over time, I have gained hands-on experience with a wide range of technologies, including MongoDB, Express.js, React, Node.js, JavaScript, HTML, CSS, and Tailwind CSS.
-
 My journey into web development started with a deep curiosity about how things work, which has now evolved into a career focused on continuous learning and adapting to new challenges. I am passionate about exploring innovative projects and always excited to work on new and creative full-stack solutions. Outside of coding, I enjoy staying active, exploring emerging technologies, and contributing to open-source and full-stack development projects.`
+
+export const EXPERIENCES = [
+  {
+    year: "Aug 2025 - Present",
+    role: "Web Development Intern",
+    company: "Logos Technologies -  Dubai, UAE",
+    description: `Designed and developed user interfaces for Cronos web application using Next.js and Tailwindcss. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs, optimized frontend performance, and performed end-to-end testing using Cypress.`,
+    project: "Cronos - AI Site Intelligence Platform",
+    technologies: ["Javascript", "Next.js", "Tailwindcss" ,"Cypress"],
+  },
+  {
+    year: "June 2025 – July 2025",
+    role: "Research Intern",
+    company: "NIT Karnataka, Surathkal",
+    project: "Financial Sentiment Analysis",
+    description: `Fine-tuned the LLaMA model on financial headlines for accurate sentiment classification. Built a RAG pipeline with source-weighted context and implemented a market feedback loop to refine weights based on next-day stock returns. Developed a PPO-based RL environment to dynamically optimize source reliability, improving model accuracy and F1-score.`,
+    technologies: ["Python", "Unsloth" ,"PyTorch", "Transformers", "RAG",],
+  }
+];
+
+
 export const PROJECTS = [
   {
     title: "AgriConnect",

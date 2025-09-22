@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 import Sidebar from "./components/Sidebar";
 import Codingprofiles from "./components/Codingprofiles";
+import Experience from "./components/Experience";
 const App = () => {
   return (
     <div className="relative min-h-screen overflow-x-hidden antialiased text-neutral-300 selection:bg-cyan-200 selection:text-cyan-900">
@@ -21,6 +22,7 @@ const App = () => {
         <About />
         <Technologies/>
         <Education/>
+        <Experience/>
         <Projects />
         <Codingprofiles/>
         <Resume />
