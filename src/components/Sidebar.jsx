@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaBars, FaTimes, FaHome, FaUser, FaCode, FaGraduationCap, FaFolder, FaEnvelope } from "react-icons/fa";
+import { FaBars, FaTimes, FaHome, FaUser, FaCode, FaGraduationCap, FaFolder, FaEnvelope  } from "react-icons/fa";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +28,7 @@ const Sidebar = () => {
     { id: 'about', label: 'About', icon: FaUser },
     { id: 'technologies', label: 'Skills', icon: FaCode },
     { id: 'education', label: 'Education', icon: FaGraduationCap },
+    { id: 'experience', label: 'Experience', icon: FaBars  },
     { id: 'projects', label: 'Projects', icon: FaFolder },
     { id: 'contact', label: 'Contact', icon: FaEnvelope },
   ];
